@@ -5,6 +5,6 @@ if [ "$#" -ne 1 ]; then
 
 else
     DATE=`date +%Y-%m-%d`
-    mv $1 ${DATE}_${1}
+    cp $1 ${DATE}_${1}
 fi
 
