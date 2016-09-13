@@ -5,5 +5,5 @@ if [ "$#" -ne 1 ]; then
 
 else
     DATE=`date +%Y_%m_%d`
-    cp $1 ${1%%.*}_${DATE}_${1##*.}
+    cp $1 ${1%%.*}_${DATE}.${1##*.}
 fi
